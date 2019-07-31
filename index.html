@@ -3,11 +3,13 @@
     <head>
         <title>CSE IITB</title>
         <meta charset="utf-8">
+        <link rel="icon" href="resources/img/iitbLogo.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <! -- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
         <style>
             .dir-list {
@@ -16,49 +18,56 @@
         </style>
     </head>
     <body>
-        <h1>Welcome to CS 699!</h1>
-        <img src='resources/img/iitbLogo.png'</img>
-        <div>
-            <B>Lets get started </B>
-            <i>with coding ! </i>
-        </div>
-        <font size="3" color='blue'><u>This file has been written in Vim </u></font>
-        <h3 style='color: brown'>Files in directory</h3>
-        <div id='table-parent'>
-            <table class='table table-bordered table-striped directory-table'>
-                <thead>
-                    <tr>
-                        <th>Sr no. </th>
-                        <th>File Name </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>index.html</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>style.css</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>control.js</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div>
-            <a href='http://www.cse.iitb.ac.in'>Department Home Page</a>
-            <a href='https://www.w3schools.com/bootstrap/'>Bootstrap Tutorial</a>
-            <a href='inpage.html'>In page link</a>
-        </div>
-        <div class='dir-list'>Built using
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src='resources/img/iitbLogo.png' width="40"></img>
+                Bhaveshkumar Yadav
+            </a>
+            <div>
+                <a href='https://www.iitb.ac.in' target ='_blank' style="margin: 10px">IIT Bombay</a>
+                <a href='https://www.cse.iitb.ac.in' target ='_blank' style="margin: 10px">CSE Department</a>
+                <a href='https://github.com/bhaver11/iitbcs699' target ='_blank' style="margin: 10px">Github</a>
+                <a href='inpage.html' style="margin: 10px" >In page link</a>
+            </div>
+        </nav>
+        <div class="container" style="display: flex; flex-direction: column; justify-content: center; text-align: center">
+            <div>
+                <B>Lets get started </B>
+                <i>with coding ! </i>
+            </div>
+            <font size="4" ><u>This file has been written in Vim </u></font>
+            <h3 style='color: brown'>Files in directory</h3>
+            <div id='table-parent'>
+                <table class='table table-bordered table-striped directory-table'>
+                    <thead>
+                        <tr>
+                            <th>Sr no. </th>
+                            <th>File Name </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>index.html</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>style.css</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>control.js</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class='dir-list'>Built using
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>
