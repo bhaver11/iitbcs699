@@ -1,0 +1,19 @@
+body {
+    background-image: url('resources/img/background.png');
+    background-size: 100% 100%;
+}
+
+#table-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.directory-table {
+    font-size: 1.2em;
+    color: brown;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
