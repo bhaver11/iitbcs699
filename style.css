@@ -3,7 +3,7 @@ body {
     background-size: 100% 100%;
 }
 
-#table-parent {
+#table-parent{
     display: flex;
     justify-content: center;
 }
@@ -11,9 +11,11 @@ body {
 .directory-table {
     font-size: 1.2em;
     color: brown;
-    text-align: center;
+    width: 90%;
 }
 
-th {
-    text-align: center;
+.info-card {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 25%;
 }
