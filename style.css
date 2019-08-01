@@ -1,5 +1,5 @@
 body {
-    background-image: url('resources/img/background.png');
+    background-image: url('resources/img/darkBg.jpg');
     background-size: 100% 100%;
 }
 
@@ -9,10 +9,11 @@ body {
     justify-content: center;
 }
 
-.directory-table {
+.course-table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 1.1%;
     font-size: large;
-    color: brown;
+    color: darkred;
 }
 
 .info-card {
