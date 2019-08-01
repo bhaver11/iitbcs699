@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CSE IITB</title>
+        <title>IITB</title>
         <meta charset="utf-8">
         <link rel="icon" href="resources/img/iitbLogo.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,11 @@
             .dir-list {
                 font-family: "serif";
                 text-align: left;
-                font-size: medium;
+                font-size: small;
+            }
+            #project-info {
+                width: 25%;
+                margin-top: 2%;
             }
         </style>
     </head>
@@ -29,7 +33,7 @@
                 <a href='https://www.iitb.ac.in' target ='_blank' style="margin: 10px">IIT Bombay</a>
                 <a href='https://www.cse.iitb.ac.in' target ='_blank' style="margin: 10px">CSE Department</a>
                 <a href='https://github.com/bhaver11/iitbcs699' target ='_blank' style="margin: 10px">Github</a>
-                <a href='inpage.html' style="margin: 10px" >In page link</a>
+                <a href='#dark-mode-button' style="margin: 10px" >Page bottom</a>
             </div>
         </nav>
         <div class="container">
@@ -42,11 +46,25 @@
                     </div>
                     <div class="card-body">
                         <p class="card-text">An inquisitive engineer from <u>Mumbai!</u></p>
-                        <a href="https://www.facebook.com/bhaver11" target="_blank" class="btn btn-primary">Facebook Profile</a>
+                        <div class="interests">Areas of interest : 
+                            <ul>
+                                <li>Computer Architecture</li>
+                                <li>Computer Programming</li>
+                                <li>Operating Systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.facebook.com/bhaver11" target="_blank" class="btn btn-primary">Facebook</a>
+                        <a href="https://www.facebook.com/bhaver11" target="_blank" class="btn btn-primary">LinkedIn</a>
                     </div>
                 </div>
             </div>
-            <div id='table-parent'>
+            <div class="card">
+                <div class="card-header" >
+                    <h5 class="card-title">Courses taken in this semester</h5>
+                </div>
+                <div class="card-body" id='table-parent'>
                 <table class='table table-bordered table-striped directory-table'>
                     <thead>
                         <tr>
@@ -56,35 +74,43 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+699">CS 699</a></td>
+                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+699" target="_blank">CS 699</a></td>
                             <td>Software Lab</td>
                         </tr>
                         <tr>
-                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+601">CS 601</a></td>
+                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+601" target="_blank">CS 601</a></td>
                             <td>Algorithms and Complexity</td>
                         </tr>
                         <tr>
-                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+683">CS 683</a></td>
+                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+683" target="_blank">CS 683</a></td>
                             <td>Advanced Computer Architecture</td>
                         </tr>
                         <tr>
-                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+742">CS 742</a></td>
+                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+742" target="_blank">CS 742</a></td>
                             <td>Foundations of Network Security and Cryptography</td>
                         </tr>
                         <tr>
-                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+744">CS 744</a></td>
+                            <td><a href="https://www.cse.iitb.ac.in/page134?course=CS+744" target="_blank">CS 744</a></td>
                             <td>Design and Engineering of Computing Systems</td>
                         </tr>
                     </tbody>
                 </table>
+                </div>
             </div>
-            <div class='dir-list'>Page Built Using
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Bootstrap</li>
-                </ul>
+            <div class="card" id='project-info'>
+                <div class="card-body">
+                    <div class='dir-list'>Page Built Using
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary" id="dark-mode-button">Dark Mode</button>
+                </div>
             </div>
         </div>
     </body>
