@@ -20,5 +20,6 @@ body {
     margin-bottom: 5%;
     margin-top: 5%;
     width: 35%;
+    min-width: 350px;
     font-size: medium;
 }
