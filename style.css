@@ -23,3 +23,9 @@ body {
     min-width: 350px;
     font-size: medium;
 }
+
+ul, .card-title{
+    margin-bottom: 0;
+}
+
+
